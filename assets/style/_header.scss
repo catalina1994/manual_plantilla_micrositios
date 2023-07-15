@@ -1,0 +1,59 @@
+header{
+ background-image: url(http://www.reniec.gob.pe/portal/images/fondo_huella_1.gif);
+ background-position:center;
+ background-repeat:no-repeat;
+ color:#676A6B;
+ .header_menu{
+    font-size:12px;
+    a{
+      padding:0 .5em;
+      color:#676A6B;
+    }
+ }
+}
+.d-logoRENIEC{
+      height: 90px;
+      width: 150px;
+    @include mediaQ(600px){
+      display: block;
+      height: 65px;
+      width: 170px;
+      margin-right: 1.5em;
+    }
+  }
+
+  .d-logoRENIEC-title{
+    color:$color-third ;
+    line-height: 1;
+    padding: .5em 0;
+    text-align: center;
+    font-size: 24px;
+        margin: 0;
+        line-height: 1;
+        font-family: $font_text_bold;
+    @include mediaQ(600px){
+      padding: 0;
+      text-align: left;
+    }
+  }
+
+//menu
+.system-menu{
+  background: linear-gradient(180deg, #3369A7 0%, #1F4672 100%);
+}
+.navbar{
+  padding: .5rem 0;
+}
+
+  
+.navbar-dark .navbar-nav .nav-link{
+  //color: #fff;
+  
+}
+.dropdown-menu{
+  background-color: #1F4672;
+  border: 1px solid rgba(0,0,0,.05);
+}
+.dropdown-item{
+  color: #f9fafb;
+}

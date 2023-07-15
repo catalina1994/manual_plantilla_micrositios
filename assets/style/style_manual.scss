@@ -1,0 +1,21 @@
+.base{
+    width: 1200px;
+    margin: 20px auto;
+}
+.d-code{
+    background-color: #f3f3f3f3;
+    border: 1px solid #bbbaba;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 1px 10px;
+}
+strong{
+    //color: #3369A7;
+    color: blue;
+    background-color: #ddddf1;
+    &.code{
+        color:red;
+        background-color: #f3e3e3;
+        display: block;
+    }
+}

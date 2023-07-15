@@ -1,0 +1,15 @@
+.carousel-caption{
+  text-align:left;
+  right: 5%;
+  left: 5%;
+  width: 100%;
+  @include mediaQ(600px){
+    width: 33%;
+  }
+}
+.carousel-control-prev{
+  width: 7%;
+}
+.carousel-control-next{
+  width: 7%;
+}

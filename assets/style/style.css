@@ -218,6 +218,16 @@ footer a:hover {
   line-height: 1.1;
 }
 
+.card-banner {
+  border: 1px solid #B5B3B3;
+  padding: 15px 20px;
+  background: rgba(51, 105, 167, 0.06);
+  border-radius: 6px;
+}
+.card-banner p {
+  margin: 0;
+}
+
 .btn-primary {
   color: #ffffff;
   background-color: #EA5932;
@@ -233,6 +243,28 @@ footer a:hover {
   border-color: #EA5932;
   background-color: #e84a1f;
   box-shadow: 0 0 0 0.25rem rgba(234, 89, 50, 0.5);
+}
+
+.link-file {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  text-decoration-line: underline;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+.link-file i {
+  margin-right: 7px;
+}
+.link-file-center {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+.link-file-center .text-small {
+  margin-top: 8px;
+  display: block;
 }
 
 .title-primary {
